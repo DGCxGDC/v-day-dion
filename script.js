@@ -113,6 +113,9 @@ function handleNoClick() {
         enableRunaway()
         runawayEnabled = true
     }
+        // This line forces it to jump immediately when the text changes!
+        runAway() 
+    }
 }
 
 function swapGif(src) {
